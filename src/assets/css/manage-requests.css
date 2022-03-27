@@ -1,0 +1,101 @@
+.access_request_btn {
+    padding-top: 30px;
+  }
+  .cards_layouts_access {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    margin-bottom: 30px;
+    padding: 35px 40px 10px;
+  }
+  .cards_layouts_access h3 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #343838;
+    margin: 0;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+  .cards_layouts_access h3 span {
+    font-weight: bold;
+  }
+  .layouts-access-table .table > thead,
+  .layouts-access-table .table > tbody {
+    vertical-align: middle;
+  }
+  .layouts-access-table .table thead tr {
+    background-color: #f4f4f4;
+  }
+  .layouts-access-table thead th {
+    font-size: 14px;
+    font-weight: 400;
+    color: #343838;
+    padding: 16px 20px;
+  }
+  .layouts-access-table table th:first-child,
+  .layouts-access-table table td:first-child {
+    border-radius: 12px 0 0 12px;
+  }
+  .layouts-access-table table th:last-child,
+  .layouts-access-table table td:last-child {
+    border-radius: 0px 12px 12px 0px;
+  }
+  .layouts-access-table table th:last-child div {
+    display: none;
+  }
+  .layouts-access-table .table tbody td:last-child {
+    text-align: right;
+  }
+  .layouts-access-table tbody tr td {
+    font-size: 16px;
+    font-weight: bold;
+    color: #343838;
+    padding: 18px 20px;
+  }
+  
+  .layouts-access-table .table tbody tr:first-child {
+    border-bottom: 3px solid #f4f4f4;
+  }
+  .access_request_btn button:first-child {
+    margin-right: 15px;
+  }
+  .layouts-access-table .table_accept_btn {
+    margin-right: 15px;
+  }
+  .layouts-access-table .table_reject_btn {
+    margin-left: 15px;
+  }
+  .layouts-access-table .btn {
+    height: 44px;
+    padding: 0 45px;
+  }
+  @media screen and (max-width: 991px) { 
+  .cards_layouts_access {
+      padding: 25px 20px 10px;
+  }
+  .layouts-access-table tbody tr td {
+      padding: 14px 12px;
+  }
+  .layouts-access-table .table tbody td:last-child {
+      display: flex;
+  }
+  .layouts-access-table .btn {
+      height: auto;
+      padding: 6px 20px;
+      width: auto;
+  }
+  
+  .layouts-access-table .table_accept_btn {
+      margin-right: 5px;
+  }
+  .layouts-access-table .table_reject_btn {
+      margin-left: 5px;
+  }
+  }
+  @media screen and (max-width: 767px) { 
+  .access_request_btn button:first-child {
+      margin-right: 0px;
+      margin-bottom: 10px;
+  }
+  .layouts-access-table thead th {
+      padding: 14px 12px;
+  }
+  }

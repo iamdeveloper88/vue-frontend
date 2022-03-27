@@ -1,0 +1,768 @@
+.home_banner {
+  /* background-image: url(../images/home/banner.jpg); */
+  background-color: #f7f7f7;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner_sec_info {
+  text-align: center;
+  padding: 110px 0;
+}
+
+.banner_sec_info h1 {
+  font-size: 40px;
+  color: #343838;
+  font-weight: 300;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.banner_sec_info h1 span {
+  font-weight: 500;
+}
+
+.hap_color_heading {
+  color: #21b8ce;
+}
+
+.banner_sec_info .btn-info {
+  border-radius: 50px;
+  padding: 0 45px;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 35px 0;
+}
+
+.banner_sec_info h3 {
+  font-size: 26px;
+  font-weight: 400;
+  color: #343838;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.banner_sec_info p {
+  font-size: 20px;
+  color: #343838;
+}
+
+.banner_sec_info p span {
+  font-weight: 500;
+}
+
+.what_you_can_do {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.what_you_can_do h1 {
+  font-size: 36px;
+  color: #343838;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.what_you_can_do h1 span {
+  font-weight: bold;
+}
+
+.cando_hap_id_number {
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+  margin-bottom: 35px;
+  min-height: 440px;
+  height: auto;
+  padding: 0 30px 30px;
+}
+
+.cando_hap_business {
+  min-height: 460px;
+  height: auto;
+}
+
+.cando_hap_id_number h2 {
+  font-size: 30px;
+  color: #343838;
+  font-weight: 300;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.cando_hap_id_number h2 span {
+  font-size: 22px;
+  font-weight: bold;
+  display: block;
+}
+
+.cando_hap_id_number p {
+  font-size: 18px;
+  color: #000;
+  min-height: 120px;
+}
+
+.cando_hap_business p {
+  min-height: 108px;
+}
+
+.hap_Id_number_icon {
+  width: 140px;
+  height: 85px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    300deg,
+    rgba(94, 220, 239, 1) 27%,
+    rgba(36, 186, 208, 1) 75%
+  );
+  border-radius: 0 0 12px 12px;
+  margin-bottom: 25px;
+}
+
+.hap_Id_number_icon i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.cando_hap_id_number .btn-outline-info {
+  border-radius: 50px;
+  padding: 0 45px;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.cando_hap_id_number .btn-outline-info a {
+  color: #21b8ce;
+}
+
+.cando_hap_id_number .btn-outline-info i {
+  padding-left: 5px;
+}
+
+.cando_hap_id_number .btn-outline-info:hover a {
+  color: #fff;
+}
+
+.unique_diligence_story {
+  padding: 50px 0;
+  background: #f7f7f7;
+}
+
+.unique_diligence_story h1 {
+  font-size: 36px;
+  color: #000;
+  font-weight: 300;
+  letter-spacing: normal;
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+.unique_diligence_story h2 {
+  font-size: 26px;
+  color: #000;
+  font-weight: 500;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.unique_diligence_story h1 span {
+  font-weight: bold;
+}
+
+.diligence_story_info {
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+  padding: 40px 50px;
+  background: #fff;
+}
+
+.diligence_what_id_number {
+  border-top: 5px solid #fff;
+  border-color: white #21b8ce;
+  border-bottom: 5px solid #fff;
+  border-left: 10px solid #21b8ce;
+  border-right: 5px solid #fff;
+}
+
+.diligence_why_id_number {
+  border-top: 5px solid #fff;
+  border-color: white #21b8ce;
+  border-bottom: 5px solid #fff;
+  border-right: 10px solid #21b8ce;
+  border-left: 5px solid #fff;
+}
+
+.diligence_what_id_number {
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
+.diligence_story_info h3 {
+  font-size: 24px;
+  color: #000;
+  font-weight: 400;
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+.diligence_story_info h3 span {
+  font-weight: bold;
+}
+
+.diligence_story_info p {
+  font-size: 18px;
+  color: #000;
+}
+
+.diligence_identity_sce {
+  background-color: #21b8ce;
+  /* background-image: url(../images/home/identity.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.diligence_identity_sce h1 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+.diligence_identity_sce h1 span {
+  font-weight: bold;
+}
+
+.diligence_identity_sce p {
+  font-size: 18px;
+  color: #fff;
+}
+
+.government_promote_info .btn.btn-info {
+  border-radius: 50px;
+  padding: 0 45px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.government_promote_info .btn.btn-info a {
+  color: #fff;
+}
+
+.government_promote_info .btn.btn-info:hover a {
+  color: #07b6ce;
+}
+
+.government_promote_sec {
+  padding: 60px 0;
+}
+
+.government_promote_info .request_meeting {
+  margin-right: 50px;
+}
+
+.government_promote_row {
+  padding-bottom: 50px;
+  border-bottom: 2px solid #e4e4e4;
+}
+
+.increase_awareness_row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.government_promote_info h2 {
+  font-size: 22px;
+  color: #000;
+  font-weight: 500;
+  margin: 0;
+  padding-bottom: 35px;
+}
+
+.government_promote_info p {
+  font-size: 18px;
+  color: #000;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.government_promote_info p span {
+  font-weight: bold;
+}
+
+.government_promote_img img {
+  width: 100%;
+}
+
+.flip-card-company {
+  background-color: transparent;
+  width: 100%;
+  min-height: 440px;
+  perspective: 1000px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.flip-card-company.cando_hap_business {
+  min-height: 460px;
+}
+
+.flip-card-company.cando_hap_business .cando_hap_id_number {
+  min-height: 460px;
+}
+
+.flip-card-company.cando_hap_business .flip-card-back-company {
+  min-height: 460px;
+}
+
+.flip-card-inner-company {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card-company:focus {
+  outline: 0;
+}
+
+.flip-card-company:hover .flip-card-inner-company,
+.flip-card-company:focus .flip-card-inner-company {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+
+.flip-card-front-company,
+.flip-card-back-company {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front-company {
+  z-index: 2;
+}
+
+.flip-card-back-company {
+  background-color: #21b8ce;
+  color: white;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  z-index: 9;
+  width: 100%;
+  min-height: 440px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.hap_Id_number_icon_back {
+  width: 140px;
+  height: 140px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.hap_Id_number_icon_back i {
+  font-size: 60px;
+  color: #21b8ce;
+}
+
+.flip-card-back-company h2 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 300;
+  margin: 0;
+}
+
+.cando_hap_business .flip-card-back-company h2 {
+  min-height: 74px;
+}
+.flip-card-back-company button {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff !important;
+  background-color: transparent !important;
+  display: inline-block;
+  padding: 22px 0px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  width: 390px;
+  height: auto !important;
+}
+.flip-card-back-company button:hover {
+  background-color: #fff !important;
+  color: #21b8ce !important;
+}
+.flip-card-back-company .btn-check:focus + .btn-outline-info,
+.flip-card-back-company .btn-outline-info:focus {
+  box-shadow: 0 0 0 0rem rgb(13 202 240 / 50%) !important;
+}
+.flip-card-back-company a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  display: block;
+  padding: 22px 0px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  width: 390px;
+}
+
+.flip-card-back-company a i {
+  padding-left: 5px;
+}
+
+.flip-card-back-company a:hover {
+  background: #fff;
+  color: #21b8ce;
+}
+
+@media screen and (max-width: 1199px) {
+  .cando_hap_id_number p {
+    min-height: auto;
+  }
+
+  .cando_hap_business p {
+    min-height: auto;
+  }
+
+  .cando_hap_business .flip-card-back-company h2 {
+    min-height: auto;
+  }
+
+  .government_promote_info .request_meeting {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .banner_sec_info h1 {
+    font-size: 36px;
+  }
+
+  .flip-card-company.cando_hap_business .cando_hap_id_number {
+    min-height: 490px;
+  }
+
+  .flip-card-company.cando_hap_business .flip-card-back-company {
+    min-height: 490px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner_sec_info h1 {
+    font-size: 35px;
+  }
+
+  .unique_diligence_story h1 {
+    font-size: 30px;
+  }
+
+  .unique_diligence_story h2 {
+    font-size: 20px;
+  }
+
+  .government_promote_info .btn.btn-info {
+    padding: 0 25px;
+  }
+
+  .government_promote_info .request_meeting {
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .flip-card-company:hover .flip-card-inner-company,
+  .flip-card-company:focus .flip-card-inner-company {
+    transform: rotateY(0deg);
+  }
+
+  .government_promote_row {
+    flex-direction: column-reverse;
+    padding-bottom: 30px;
+  }
+
+  .government_promote_row .government_promote_img {
+    margin-top: 20px;
+  }
+
+  .increase_awareness_row {
+    padding-bottom: 0;
+  }
+
+  .government_promote_img {
+    margin-bottom: 50px;
+  }
+
+  .banner_sec_info h1 {
+    font-size: 36px;
+  }
+
+  .banner_sec_info h1 br {
+    display: none;
+  }
+
+  .flip-card-company {
+    min-height: 335px;
+    margin-bottom: 35px;
+  }
+
+  .flip-card-company.request_number_card {
+    min-height: 390px;
+  }
+
+  .flip-card-company.cando_hap_business {
+    min-height: 490px;
+  }
+
+  .flip-card-front-company,
+  .flip-card-back-company {
+    height: auto;
+    min-height: 350px;
+  }
+
+  .flip-card-back-company {
+    gap: 15px;
+    padding: 35px 0;
+    display: none;
+  }
+
+  .cando_hap_id_number {
+    min-height: auto;
+  }
+
+  .unique_diligence_story h1 {
+    font-size: 22px;
+  }
+
+  .unique_diligence_story h2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .government_promote_info .request_meeting {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .flip-card-company.request_number_card {
+    min-height: 450px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  section {
+    padding: 30px 0 !important;
+  }
+
+  .banner_sec_info {
+    padding: 50px 0;
+  }
+
+  .banner_sec_info h1 {
+    font-size: 25px;
+  }
+
+  .banner_sec_info .btn-info {
+    margin: 15px 0;
+    font-size: 16px;
+  }
+
+  .what_you_can_do h1 {
+    padding-bottom: 20px;
+  }
+
+  .hap_Id_number_icon_back {
+    width: 100px;
+    height: 100px;
+  }
+
+  .request_number_card .flip-card-front-company,
+  .request_number_card .flip-card-back-company {
+    height: auto;
+    min-height: 430px;
+  }
+
+  .flip-card-company.cando_hap_business {
+    min-height: 460px;
+  }
+
+  .flip-card-company.cando_hap_business .flip-card-back-company {
+    min-height: 460px;
+  }
+
+  .flip-card-back-company {
+    gap: 25px;
+    padding: 35px 20px;
+  }
+
+  .hap_Id_number_icon_back {
+    width: 100px;
+    height: 100px;
+  }
+
+  .hap_Id_number_icon_back i {
+    font-size: 30px;
+  }
+
+  .flip-card-back-company a {
+    padding: 15px 0;
+    width: 315px;
+  }
+
+  .unique_diligence_story h1 {
+    font-size: 18px;
+  }
+
+  .diligence_identity_sce h1 {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+
+  .government_promote_info h2 {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .government_promote_button {
+    text-align: center;
+  }
+
+  .government_promote_info .request_meeting {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 20px !important;
+  }
+
+  h3 {
+    font-size: 18px !important;
+  }
+
+  p {
+    font-size: 16px !important;
+  }
+
+  .cando_hap_id_number .btn-outline-info {
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+
+  .cando_hap_id_number h2 span {
+    font-size: 18px;
+  }
+
+  .cando_hap_id_number h2 {
+    padding-bottom: 12px;
+  }
+
+  .cando_hap_id_number h2 span br {
+    display: none;
+  }
+
+  .diligence_story_info {
+    padding: 20px;
+  }
+
+  .cando_hap_id_number {
+    padding: 0 15px 20px;
+  }
+
+  .flip-card-front-company,
+  .flip-card-back-company {
+    min-height: 320px;
+  }
+
+  .flip-card-company {
+    min-height: 320px;
+  }
+
+  .flip-card-company.request_number_card {
+    min-height: 430px;
+  }
+
+  .flip-card-company.cando_hap_business .cando_hap_id_number {
+    min-height: 440px;
+  }
+
+  .flip-card-company.cando_hap_business {
+    min-height: 430px;
+  }
+
+  .flip-card-company.cando_hap_business .flip-card-back-company {
+    min-height: 430px;
+  }
+
+  .modal-body-content h4 {
+    font-size: 20px;
+  }
+
+  .government_promote_info .btn.btn-info {
+    padding: 0 20px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .flip-card-company.cando_hap_business {
+    min-height: 450px;
+  }
+
+  .banner_sec_info .btn-info {
+    padding: 0 25px;
+  }
+
+  .flip-card-back-company .btn-outline-light {
+    padding: 12px 0;
+    width: 230px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .flip-card-company.cando_hap_business {
+    min-height: 515px;
+  }
+
+  .cando_hap_id_number .btn-outline-info {
+    font-size: 16px;
+  }
+
+  .diligence_story_info {
+    padding: 20px 12px;
+  }
+
+  .government_promote_info .btn.btn-info {
+    font-size: 16px;
+  }
+
+  p {
+    text-align: justify;
+  }
+}

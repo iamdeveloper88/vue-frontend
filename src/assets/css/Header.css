@@ -1,0 +1,91 @@
+.header {
+  background: #fff;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+
+.heder nav.navbar {
+  padding: 22px 0;
+}
+
+.heder .navbar-brand.header_logo {
+  padding: 0;
+  margin: 0;
+}
+
+.header .navbar-nav .nav-item {
+  padding-left: 34px;
+}
+
+.header .navbar-nav .nav-item a {
+  font-size: 18px;
+  font-weight: 300;
+  color: #343838;
+  padding: 0;
+}
+
+.header .navbar-nav .nav-item a:hover {
+  color: #343838;
+}
+
+.header .navbar-nav .nav-item.header_login {
+  padding-left: 54px;
+}
+
+.header .navbar-nav .header_login a,
+.header .navbar-nav .header_login a:hover {
+  color: #15cbe4;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.header .navbar-toggler {
+  padding: 12px 14px;
+}
+.header .collapsed i.fas.fa-outdent {
+  display: block;
+  color: #0ec0d9;
+}
+.header .collapsed i.fas.fa-times {
+  display: none;
+}
+.header .not-collapsed i.fas.fa-outdent {
+  display: none;
+}
+.header .not-collapsed i.fas.fa-times {
+  display: block;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-collapse {
+    background: #000000d1;
+  }
+
+  .header .navbar-nav .nav-item {
+    padding-left: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #15cbe4;
+  }
+  .header .navbar-nav .nav-item:last-child {
+    border: none;
+  }
+
+  .header .navbar-nav .nav-item.header_login {
+    padding-left: 34px;
+  }
+
+  .header .navbar-nav .nav-item a {
+    color: #fff;
+  }
+
+  .header .navbar-nav .header_login a,
+  .header .navbar-nav .header_login a:hover {
+    color: #15cbe4;
+  }
+}

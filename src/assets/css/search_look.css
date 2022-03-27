@@ -1,0 +1,103 @@
+
+
+.hap_id_number_address {
+    display: flex;
+    align-items: center;
+}
+.results_image {
+  flex: 0 0 30%;
+  width: 30%;
+}
+
+.results_image img {
+    max-width: 100%;
+}
+
+.results_address {
+  flex: 0 0 45%;
+  width: 45%;
+}
+
+.results_links {
+  flex: 0 0 25%;
+  width: 25%;
+}
+
+.results_links button {
+  border-radius: 50px;
+  padding: 0 55px;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.results_links button i {
+  padding-left: 10px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 1024px) {
+  .hap_id_number_address {
+    padding: 0;
+  }
+
+  .hap_id_number_results .cards_layouts {
+    padding: 25px;
+  }
+
+  .results_address {
+    flex: 0 0 40%;
+    width: 40%;
+    padding-left: 20px;
+  }
+
+  .results_links {
+    flex: 0 0 30%;
+    width: 30%;
+  }
+
+  .results_links button {
+    padding: 0 35px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .hap_id_number_address {
+    display: grid;
+    justify-content: center;
+  }
+
+  .hap_id_number_address {
+    padding: 0;
+  }
+
+  .hap_id_number_results .cards_layouts {
+    padding: 25px;
+  }
+
+  .results_image {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+
+  .results_image img {
+    max-width: 100%;
+    width: auto;
+  }
+
+  .results_address {
+    flex: 0 0 100%;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 25px;
+  }
+
+  .results_links {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+
+  .results_links button {
+    padding: 0 35px;
+  }
+}

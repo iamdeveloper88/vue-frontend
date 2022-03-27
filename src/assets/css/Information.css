@@ -1,0 +1,254 @@
+#company-information {
+  /* background-image: url(/img/banner.b2359460.jpg); */
+  background-color: #f7f7f7;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hap_id_number_address {
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.results_address {
+  flex: 0 0 45%;
+}
+
+.results_image {
+  flex: 0 0 15%;
+}
+
+.company_image_edit {
+  display: inline-grid;
+  color: #0dbfd7;
+  margin-right: 20px;
+}
+.company_image_edit img {
+  max-width: 130px;
+  min-height: 130px;
+  object-fit: cover;
+}
+.company_image_edit a {
+  color: #21b8ce;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.company_images {
+  flex: 0 0 40%;
+}
+
+.img-edit-remove {
+  text-align: center;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+.img-edit-remove p {
+  position: absolute;
+  left: 24px;
+  color: #21b8ce;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.img-edit-remove button {
+  background-color: transparent;
+  border: 0px;
+  padding-left: 2px;
+  color: #21b8ce;
+  font-size: 16px;
+  font-weight: 300;
+}
+.img-edit-remove label {
+  display: none;
+}
+.img-edit-remove .custom-file-input {
+  width: 40px;
+  opacity: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+.img-edit-remove .custom-file {
+  width: 40px;
+  z-index: 1;
+  /* cursor: pointer; */
+}
+.report-history-title {
+  padding: 30px 0;
+}
+
+.report-history-title h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #343838;
+  margin: 0;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.report-history-table .table > thead,
+.report-history-table .table > tbody {
+  vertical-align: middle;
+}
+
+.report-history-table thead {
+  background-color: #fbfbfb;
+}
+
+.report-history-table thead th {
+  font-size: 14px;
+  font-weight: 400;
+  color: #343838;
+  padding: 16px 20px;
+}
+
+.report-history-table table th:first-child,
+.report-history-table table td:first-child {
+  border-radius: 12px 0 0 12px;
+}
+
+.report-history-table table th:last-child,
+.report-history-table table td:last-child {
+  border-radius: 0px 12px 12px 0px;
+}
+
+.report-history-table tbody tr {
+  background-color: #f4f4f4;
+}
+
+.report-history-table tbody tr td {
+  font-size: 16px;
+  font-weight: bold;
+  color: #343838;
+  padding: 18px 20px;
+}
+
+.report-history-table span.badge {
+  width: 140px;
+  padding: 0.65em 0.65em;
+  font-size: 14px !important;
+  font-weight: bold;
+}
+
+.report-history-table span.bg-danger {
+  background-color: #eb3838 !important;
+}
+
+.report-history-table span.bg-success {
+  background-color: #48ce74 !important;
+}
+
+.company-inquiries-info {
+  background: #f4f4f4;
+  padding: 18px 20px;
+  border-radius: 12px;
+}
+
+.company-inquiries-info li span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #343838;
+  padding-right: 12px;
+}
+
+.company-inquiries-info li label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #343838;
+  margin: 0px;
+}
+
+.qr-code-img {
+  display: flex;
+  padding-top: 15px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.qr-code-img p {
+  color: #21b8ce;
+  font-weight: 400;
+  padding-left: 12px;
+}
+
+@media screen and (max-width: 1199px) {
+  .results_image {
+    flex: 0 0 20%;
+  }
+
+  .results_address {
+    flex: 0 0 40%;
+  }
+
+  .company_images {
+    flex: 0 0 40%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hap_id_number_address {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 991px) {
+  .company-inquiries .col-lg-6,
+  .company-inquiries .col-md-6 {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* .hap_id_number_address {
+        display: grid;
+        justify-content: center;
+    } */
+  .results_image {
+    flex: 0 0 30%;
+  }
+
+  .results_address {
+    flex: 0 0 70%;
+  }
+
+  .company_images {
+    flex: 0 0 100%;
+    padding-top: 15px;
+  }
+
+  .results_address {
+    padding: 20px 0;
+  }
+
+  .hap_number_address_title h3 {
+    padding: 0;
+  }
+
+  .hap_id_number_address {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hap_id_number_address {
+    display: grid;
+    justify-content: center;
+  }
+  .company_images {
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .company_image_edit {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hap_id_number_pages p {
+    text-align: justify;
+  }
+}

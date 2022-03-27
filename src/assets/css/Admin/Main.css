@@ -1,0 +1,241 @@
+.admin-data-table .table > thead,
+.admin-data-table .table > tbody {
+  vertical-align: middle;
+}
+
+.admin-data-table thead,
+.admin-data-table tbody,
+.admin-data-table tfoot,
+.admin-data-table tr,
+.admin-data-table td,
+.admin-data-table th {
+  border-style: hidden;
+}
+
+.admin-data-table .table > :not(caption) > * > * {
+  border-bottom-width: 0px;
+}
+
+.admin-data-table thead {
+  background-color: #fbfbfb;
+}
+
+.admin-data-table table th:first-child,
+.admin-data-table table td:first-child {
+  border-radius: 12px 0 0 12px;
+}
+
+.admin-data-table table th:last-child,
+.admin-data-table table td:last-child {
+  border-radius: 0px 12px 12px 0px;
+}
+
+.admin-data-table thead th {
+  font-size: 16px;
+  font-weight: 400;
+  color: #343838;
+  padding: 16px 20px;
+}
+
+.admin-data-table thead th:last-child {
+  text-align: center;
+}
+
+.admin-data-table tbody tr td:last-child {
+  text-align: center;
+}
+
+.admin-data-table tbody tr {
+  background-color: #f4f4f4;
+}
+
+.admin-data-table tbody tr td {
+  font-size: 14px;
+  font-weight: bold;
+  color: #343838;
+  padding: 18px 20px;
+}
+
+.admin-data-table .btn {
+  width: 150px;
+}
+
+.admin-data-table .btn-success {
+  margin-right: 10px;
+}
+
+.b-table-empty-row .text-center {
+  font-size: 18px;
+  font-weight: 400;
+}
+/* ======================================================================= */
+
+/* ======================================================================= */
+
+/* ================ Admin, Sidebar, Header and footer ================ */
+.main-content {
+  margin-left: 220px;
+}
+.page-content {
+  padding: calc(85px + 1.5rem) calc(1.5rem / 2) 60px calc(1.5rem / 2);
+}
+
+/*===================== Admin Header css =====================*/
+.page-topbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 220px;
+  z-index: 1002;
+  height: 85px;
+  background: #fff;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+  padding: 1.9rem 3rem;
+  transition: all 0.1s ease-out;
+}
+
+.header-navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.page-topbar .admin-home-link {
+  width: 50%;
+  text-align: left;
+}
+
+.page-topbar .admin-home-link a {
+  font-size: 18px;
+  font-weight: 300;
+  color: #343838;
+  text-transform: capitalize;
+  padding: 0;
+}
+
+.circle {
+  border-radius: 50%;
+}
+.page-topbar .admin-login-link {
+  text-align: right;
+  width: 50%;
+}
+
+.page-topbar .admin-login-link a {
+  font-size: 18px;
+  font-weight: 300;
+  color: #0fc2db;
+  text-transform: capitalize;
+  padding: 0;
+}
+
+/*===================== Admin Header css =====================*/
+
+/*===================== Admin Sidebar css =====================*/
+.navbar-menu {
+  width: 220px;
+  z-index: 1002;
+  background: #fff;
+  border-right: 1px solid #fff;
+  bottom: 0;
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 2px 4px rgb(15 34 58 / 12%);
+  padding: 0 0 calc(20px + 25px) 0;
+  transition: all 0.1s ease-out;
+}
+
+.navbar-brand-box {
+  padding: 0 1.3rem;
+  text-align: center;
+  transition: all 0.1s ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85px;
+  margin-bottom: 12px;
+  box-shadow: rgb(149 157 165 / 20%) 0px 4px 24px;
+}
+
+.navbar-brand-box .navbar-brand {
+  margin-right: 0px;
+}
+
+.navbar-brand-box img {
+  width: 65px;
+}
+.sidebar-menu {
+  padding-top: 15px;
+}
+.sidebar-menu .nav-link {
+  font-size: 18px;
+  font-weight: 300;
+  color: #343838;
+  text-transform: capitalize;
+  display: block;
+  padding: 0.625rem 2.5rem;
+}
+
+.sidebar-menu .nav-link i {
+  padding-right: 6px;
+  color: #0fc2db;
+}
+
+/*===================== Admin User css =====================*/
+
+.page-content select {
+  width: 100%;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px 12px;
+  background-image: url("../../images/angle-down.svg");
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.page-content .form-control,
+.page-content select {
+  margin-bottom: 20px;
+}
+/*===================== Admin User css =====================*/
+/*===================== Admin Sidebar css =====================*/
+.report-history-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 25px 20px;
+}
+.report-history-title h2 {
+  margin: 0;
+}
+.report-history-title .add-screen {
+  width: 85px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+/* ================ Admin Side bar, Header and footer Resnosvie ================ */
+
+@media screen and (max-width: 767px) {
+  .navbar-menu {
+    width: 120px;
+  }
+
+  .page-topbar {
+    left: 120px;
+  }
+
+  .sidebar-menu .nav-link {
+    padding: 0.625rem 0.8rem;
+  }
+
+  .sidebar-menu .nav-link i {
+    display: none;
+  }
+
+  .main-content {
+    margin-left: 120px;
+  }
+}

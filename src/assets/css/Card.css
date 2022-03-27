@@ -1,0 +1,18 @@
+.cards_layouts {
+    padding: 50px 45px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+
+@media screen and (max-width: 767px) { 
+    .cards_layouts {
+        padding: 40px 30px;
+    }
+}
+
+@media screen and (max-width: 412px) { 
+.cards_layouts {
+    padding: 25px 15px;
+}
+}

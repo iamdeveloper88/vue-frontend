@@ -1,0 +1,62 @@
+.cards_layouts_connections {
+  padding: 30px 35px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.cards_layouts_connections img {
+  width: 100%;
+}
+
+.cards_layouts_connections h3 {
+  font-size: 24px;
+  color: #343838;
+  margin: 0px;
+  line-height: normal;
+  font-weight: 500;
+}
+.cards_layouts_connections h6 {
+  padding: 22px 0 4px;
+
+}
+.cards_layouts_connections h6,
+.cards_layouts_connections span {
+  font-size: 18px;
+  font-weight: 300;
+  color: #343838;
+  margin: 0;
+}
+
+.cards_layouts_connections p {
+  font-size: 18px;
+  color: #000;
+  line-height: 22px;
+}
+
+.cards_layouts_connections p i {
+  color: #21b8ce;
+  padding-right: 5px;
+}
+
+.cards_layouts_connections .btn-info {
+  height: 44px;
+  width: 159px;
+  margin-top: 20px;
+}
+
+.hap_id_number_pages .btn-info a {
+  color: #fff;
+}
+
+.hap_id_number_pages .btn-info a:hover {
+  color: #07b6ce;
+}
+
+@media screen and (min-width: 540px) and (max-width: 767px) {
+  .cards_layouts_connections {
+    padding: 20px 15px;
+  }
+}
